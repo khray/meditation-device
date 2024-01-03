@@ -2340,7 +2340,7 @@
     (property "Value" "Microphone_Condensor" (at 205.1685 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Buzzer_Beeper:MagneticBuzzer_Kingstate_KCG0601" (at 207.01 128.27 90)
+    (property "Footprint" "Buzzer_Beeper:MagneticBuzzer_Kobitone_254-EMB73-RO" (at 207.01 128.27 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 128.27 90)
