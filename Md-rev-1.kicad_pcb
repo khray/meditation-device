@@ -317,7 +317,7 @@
     (property "Sheetname" "")
     (path "/269fe73f-4800-41a9-8fd5-edb97177784a")
     (attr smd)
-    (fp_text reference "J2" (at 5.59 7.43) (layer "F.SilkS")
+    (fp_text reference "J2" (at 5.59 7.43 -180) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58db571f-bcc5-4514-b8db-d9c671a1e1cf)
     )
@@ -387,11 +387,6 @@
       (net 32 "unconnected-(J2-Pad5)") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp 446111f7-0217-449b-a97a-f4f1ef0e3db3))
     (pad "6" smd rect (at 3.5 -5 270) (size 2 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "unconnected-(J2-Pad6)") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp c8d53a6a-8170-41c9-9932-6b8b9c2194de))
-    (model "/Users/khray/Downloads/54_00177/54-00177.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
