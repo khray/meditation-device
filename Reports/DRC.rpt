@@ -1,0 +1,54 @@
+** Drc report for /Users/khray/Hardware/5. Contracts/med-device/Md-rev-1.kicad_pcb **
+** Created on 2024-02-01 22:28:39 **
+
+** Found 11 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1751 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(154.0100 mm, 120.8250 mm): NPTH pad of J1
+    @(153.7000 mm, 119.7500 mm): Pad A1 [GND] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2099 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(154.0100 mm, 120.8250 mm): NPTH pad of J1
+    @(154.5000 mm, 119.7500 mm): Pad A4 [/5V] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2099 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(154.0100 mm, 120.8250 mm): NPTH pad of J1
+    @(154.5000 mm, 119.7500 mm): Pad B9 [/5V] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1751 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(154.0100 mm, 120.8250 mm): NPTH pad of J1
+    @(153.7000 mm, 119.7500 mm): Pad B12 [GND] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2099 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(159.7900 mm, 120.8250 mm): NPTH pad of J1
+    @(159.3000 mm, 119.7500 mm): Pad A9 [/5V] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1751 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(159.7900 mm, 120.8250 mm): NPTH pad of J1
+    @(160.1000 mm, 119.7500 mm): Pad A12 [GND] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1751 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(159.7900 mm, 120.8250 mm): NPTH pad of J1
+    @(160.1000 mm, 119.7500 mm): Pad B1 [GND] of J1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2099 mm)
+    Rule: board setup constraints hole; Severity: error
+    @(159.7900 mm, 120.8250 mm): NPTH pad of J1
+    @(159.3000 mm, 119.7500 mm): Pad B4 [/5V] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(128.9900 mm, 103.1300 mm): Zone [GND] on F.Cu and 1 more
+    @(147.8500 mm, 105.0000 mm): PTH pad 2 [GND] of 
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(128.9900 mm, 103.1300 mm): Zone [GND] on F.Cu and 1 more
+    @(161.2200 mm, 120.3250 mm): PTH pad S1 [GND] of J1
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: error
+    @(128.9900 mm, 103.1300 mm): Zone [GND] on F.Cu and 1 more
+    @(161.2200 mm, 124.5050 mm): PTH pad S1 [GND] of J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
